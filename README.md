@@ -1,7 +1,25 @@
-fork from [meroje](https://github.com/Meroje/alpine-nchan) && add new verison support
+# nginx nchan module docker image
 
-example see directory `example`
+nchan for build real time application
 
-This image is based on the official [nginx mainline build](https://github.com/nginxinc/docker-nginx/blob/master/mainline/alpine/Dockerfile), only adding the nchan module.
+## how to use
 
-You can find an example use [here](https://github.com/meroje/alpine-nchan-example)
+```bash
+see directory example
+```
+
+## how to run demo
+
+```bash
+docker build -t nchan-demo .
+
+docker run -d -p 8080:80 nchan-demo
+
+or with the dockerhub build image
+
+docker run -d -p 8080:80 dalongrong/nchan:demo
+```
+
+## some images
+
+![image](./example/result.png)
