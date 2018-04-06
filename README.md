@@ -18,6 +18,11 @@ docker run -d -p 8080:80 nchan-demo
 or with the dockerhub build image
 
 docker run -d -p 8080:80 dalongrong/nchan:demo
+
+or  with docker-compose
+
+docker-compose build
+docker-compose up -d
 ```
 
 ## some images
